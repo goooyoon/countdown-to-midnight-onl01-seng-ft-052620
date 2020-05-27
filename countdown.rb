@@ -1,12 +1,11 @@
-#write your code here
-
-def countdown(n)
-n = 0
-while n < 12
-  puts "#{n} SECOND(S)!"
-  n += 1
-when n == 12
-  puts "HAPPY NEW YEAR!"
+def countdown(from)
+  count = from
+  while count > 0
+    puts "#{count} SECOND(S)!"
+    count -= 1
+  end
+  return "HAPPY NEW YEAR!"
+end
 end
 
 def countdown_with_sleep(x)
