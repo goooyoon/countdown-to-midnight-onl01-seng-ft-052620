@@ -13,6 +13,6 @@ def countdown_with_sleep(x)
 end
 
 x = 0
-while x < 6
+while x >= 6
   x += 1
 end
